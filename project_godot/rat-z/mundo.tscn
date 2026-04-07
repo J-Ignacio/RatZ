@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cytaduoehikej"]
+
+[ext_resource type="Script" uid="uid://cnpdfmcnemacp" path="res://player.gd" id="1_lgngo"]
+[ext_resource type="Texture2D" uid="uid://05lymf1xfp1g" path="res://icon.svg" id="2_fw4w5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_otwa2"]
+size = Vector2(129, 128)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aou4a"]
+size = Vector2(1599, 53)
+
+[node name="Node2D" type="Node2D" unique_id=140871199]
+position = Vector2(1, -2)
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=644741369]
+process_mode = 3
+script = ExtResource("1_lgngo")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=1350629354]
+position = Vector2(561, 358)
+texture = ExtResource("2_fw4w5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1728652045]
+position = Vector2(560.5, 358)
+shape = SubResource("RectangleShape2D_otwa2")
+
+[node name="Suelo" type="StaticBody2D" parent="." unique_id=270622298]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Suelo" unique_id=229682783]
+position = Vector2(584.5, 619.5)
+shape = SubResource("RectangleShape2D_aou4a")
