@@ -1,8 +1,4 @@
-# 🐀 Ratz: Survival en el Block
-
-> *Día 42. Ya no quedan latas en las calles. Los que no murieron de hambre, fueron cazados por ellos. Somos los últimos supervivientes en esta jungla de asfalto. Tienes que moverte, buscar, crear lo que necesites para sobrevivir un día más. Y si mueres... se acabó. No hay segundas oportunidades.* 🩸🏚️
-
-¡Bienvenido al repositorio de **Ratz**! Este es el código base para nuestro juego 2D de supervivencia zombie, donde cada decisión cuenta.
+# 🐀 Ratz
 
 ## 🛠️ Características del Proyecto
 
