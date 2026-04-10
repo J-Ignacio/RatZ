@@ -79,4 +79,4 @@ while running:
     clock.tick(60)         # Mantener 60 cuadros por segundo
 
 pygame.quit()
-sys.exit()
+sys.exit()   
